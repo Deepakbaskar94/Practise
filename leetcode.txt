@@ -3,7 +3,7 @@ https://onedrive.live.com/redir?resid=958B03D2C9D39C34%212689&authkey=%21AGAk0nf
 https://onedrive.live.com/view.aspx?resid=958B03D2C9D39C34%212689&authkey=!AGAk0nfeYSdj1-4
 
 
-https://leetcode.com/problems/power-of-two/description/
-https://leetcode.com/problems/ugly-number/description/
-https://leetcode.com/problems/move-zeroes/
-https://leetcode.com/problems/happy-number/description/
+Done - https://leetcode.com/problems/power-of-two/description/ - Dec1
+Done - https://leetcode.com/problems/ugly-number/description/ - Dec1
+Done - https://leetcode.com/problems/move-zeroes/ - Dec1
+Done - https://leetcode.com/problems/happy-number/description/ - Dec1
