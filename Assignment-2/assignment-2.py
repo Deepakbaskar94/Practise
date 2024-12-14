@@ -87,6 +87,24 @@ class Solution(object):
         
 # 6. https://leetcode.com/problems/transpose-matrix
 
+class Solution(object):
+    def transpose(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        full = []    
+        for n in matrix:
+            for i in range(len(n)):
+                if len(full)-1 < i:
+                    full.append([n[i]])
+                else:
+                    data = full[i]
+                    data.append(n[i])
+        return full
+
+
+
 # 7. https://leetcode.com/problems/majority-element
 
 class Solution(object):
