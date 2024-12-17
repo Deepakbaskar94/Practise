@@ -18,10 +18,7 @@ class Solution(object):
             if wealth[data] > high:
                 high = wealth[data]
         
-        return high
-
-
-                
+        return high              
         
 
 
@@ -64,6 +61,28 @@ class Solution(object):
         
 
 # 4. https://leetcode.com/problems/minimum-absolute-difference
+
+class Solution(object):
+    def minimumAbsDifference(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: List[List[int]]
+        """
+        full = []
+        arr = sorted(arr)
+        # print(arr)
+        value = arr[-1]-arr[0]
+        for pos in range(len(arr)-1):
+            diff = arr[pos+1]-arr[pos]
+            # print(arr[pos+1],arr[pos], diff)
+            if diff <= value:
+                if diff < value:
+                    full = []                
+                value = diff
+                data = [arr[pos], arr[pos+1]]
+                full.append(data)
+                # print(full)
+        return full
 
 # 5. https://leetcode.com/problems/three-consecutive-odds
 
